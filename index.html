@@ -4,20 +4,58 @@
     <meta charset="utf-8">
     <title>南 規楽のホームページ</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
     <h1 class="title">南 規楽のホームページ</h1>
     <hr>
     <h2>修士論文</h2>
-    Trace equivalence and epistemic logic to express security properties.<br>
-    <div class="item">abstract<br>
-      <span>+</span>
-      <div class="abstract">
-        <p>In process algebras, security properties are expressed as equivalences between processes, but which equivalence is suitable is not clear. This means that there is a gap between an intuitive security notion and the formulation. Appropriate formalization is essential for verification, and our purpose is bridging this gap. By chasing scope extrusions, we prove that trace equivalence is congruent. Moreover, we construct an epistemic logic for the applied pi calculus and show that its logical equivalence agrees with the trace equivalence. We use the epistemic logic to show that trace equivalence is pertinent in the presence of a non-adaptive attacker.</p>
-      </div>
-    </div>
-    <a href="">arXiv:1903.03719</a> (2019)
+    <ul>
+      <li>
+        Trace Equivalence and Epistemic Logic to Express Security Properties.<br>
+        <div class="item">abstract
+          <span>+</span>
+          <div class="abstract">
+            <p>In process algebras, security properties are expressed as equivalences between processes, but which equivalence is suitable is not clear. This means that there is a gap between an intuitive security notion and the formulation. Appropriate formalization is essential for verification, and our purpose is bridging this gap. By chasing scope extrusions, we prove that trace equivalence is congruent. Moreover, we construct an epistemic logic for the applied pi calculus and show that its logical equivalence agrees with the trace equivalence. We use the epistemic logic to show that trace equivalence is pertinent in the presence of a non-adaptive attacker.</p>
+          </div>
+        </div>
+        <a href="https://arxiv.org/abs/1903.03719">arXiv:1903.03719</a> (2019)
+      </li>
+    </ul>
+    <hr>
+    <h2>会議論文(査読付き)</h2>
+    <ul>
+      <li>
+        Kiraku Minami.<br>
+        "Trace Equivalence and Epistemic Logic to Express Security Properties",<br>
+        Formal Techniques for Distributed Objects, Components, and Systems 2020.<br>
+        LNCS vol.12136:115-132, 2020<br>
+        <div class="item">abstract
+          <span>+</span>
+          <div class="abstract">
+            <p>In process algebra, we can express security properties using an equivalence on processes. However, it is not clear which equivalence is the most suitable for the purpose. Indeed, several definitions of some properties are proposed. For example, the definition of privacy is not unique. This situation means that we are not certain how to express an intuitive security notion. Namely, there is a gap between an intuitive security notion and the formulation. Proper formalization is essential for verification, and our purpose is to bridge this gap.</p>
+            <p>In the case of the applied pi calculus, an outputted message is not explicitly expressed. This feature suggests that trace equivalence appropriately expresses indistinguishability for attackers in the applied pi calculus. By chasing interchanging bound names and scope extrusions, we prove that trace equivalence is a congruence. Therefore, a security property expressed using trace equivalence is preserved by application of contexts.</p>
+            <p>Moreover, we construct an epistemic logic for the applied pi calculus. We show that its logical equivalence agrees with trace equivalence. It means that trace equivalence is suitable in the presence of a non-adaptive attacker. Besides, we define several security properties to use our epistemic logic.</p>
+          </div>
+        </div>
+        <a href="https://doi.org/10.1007/978-3-030-50086-3_7">DOI</a>
+      </li>
+    </ul>
+    <hr>
+    <h2>会議論文(査読無し)</h2>
+    <ul>
+      <li>
+        Kiraku Minami.<br>
+        "Trace Equivalence and Epistemic Logic to Express Security Properties",<br>
+        2019 Symposium on Cryptography and Information Security.<br>
+        <div class="item">abstract
+          <span>+</span>
+          <div class="abstract">
+            <p>In process algebras, security properties are expressed as equivalences between processes, but which equivalence is suitable is not clear. Appropriate formalization is essential for verification. We provide an epistemic logic for the applied pi calculus and use it to show that trace equivalence is pertinent to capture security notions in the presence of a non-adaptive attacker. At first, we prove that trace equivalence is a congruence. Secondly, we give an epistemic logic that characterizes trace equivalence. Thirdly, in this logic, we define multiple security properties such as role-interchangeability proposed by Mano et al. in 2010. Finally, we prove that satisfaction problems for the epistemic logic are decidable under some conditions. Our results imply that trace equivalence is more suitable to express security notions than lebelled bisimilarity.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
     <script src="script.js"></script>
   </body>
 </html>
