@@ -1,5 +1,6 @@
 $(function(){
-  $(.item).click(function(){
+
+  $(".item").click(function(){
     var $abstract = $(this).find('.abstract');
     if($abstract.hasClass('open')){
       $abstract.removeClass('open');
@@ -12,6 +13,4 @@ $(function(){
       $(this).find('span').text('-');
     }
   });
-
-  $("div").css("background-color", "red");
 });
